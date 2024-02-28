@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Orders</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Log a New Order</h1> <a href="">Back to purchases</a>
+        <div>
+            <form action="/cookies/new_order" method="post">
+                <label for="cust_name">Name: </label>
+                <input type="text" name="cust_name" id="cust_name_id">
+                <label for="cookie_type">Cookie Type: </label>
+                <input type="text" name="cookie_type" id="cookie_type_id">
+                <label for="number_of_boxes"> Number of Boxes: </label>
+                <input type="text" name="number_of_boxes" id="number_of_boxes_id">
+                <button type="submit">Log</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
